@@ -1,0 +1,1 @@
+# Akij_grp_intern_project
