@@ -1,0 +1,92 @@
+body{
+    background:rgb(225, 241, 235) !important;
+}
+.inner-div{
+    margin: 0 auto;
+}
+.required-field label::after { 
+    content: "*";
+    color: red;
+}
+img{
+    max-width: 100%;
+}
+
+.side-bar{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.side-bar .panel .panel-body a{
+    text-decoration: none;
+    color: black;
+}
+.side-bar .panel .panel-body a:hover{
+    color:#2c5ba1;
+}
+div.no-left-padding{
+    padding-left: 0px;
+}
+div.no-right-padding{
+    padding-right: 0px;
+}
+div.no-padding{
+    padding: 0px;
+}
+.align-right{
+    margin-right: 0px;
+}
+
+#nav-menu{
+    float: right;
+}
+table {
+    table-layout: fixed;
+    width: 100%;   
+}
+th,td {
+    word-wrap: break-word;
+}
+#login-page{
+    max-width: 100%;
+    padding-top: 10%;
+}
+
+.dashboard-card{
+    padding: 1em;
+}
+.dashboard-card .card-body a{
+    text-decoration: none;
+}
+#dashboard-body{
+    height: 100%;
+}
+
+div>a>button{
+    padding: 10px;
+    margin: 2px;
+    position:relative;
+}
+#action-col{
+    width: 10em;
+}
+#id-col{
+    width: 4em;
+}
+#description-col{
+    width: 20em;
+}
+td i{
+    margin: 2px;
+}
+
+table.view-page tr th{
+    text-align: right;
+}
+
+select.product-filter{
+    padding:6px ;
+    text-align: center;
+    margin: 2px;
+    height: 35px;
+}
